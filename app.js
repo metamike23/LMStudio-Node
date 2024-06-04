@@ -1,4 +1,4 @@
-// npm init -i
+// npm init 
 // npm install axios readline           ---- make sure the project is a module
 
 // node app.js                          ---- Starts Console app
