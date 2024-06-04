@@ -22,7 +22,27 @@ npm init
 # Install dependencies
 npm install axios readline
 
-# Make sure the project is a module
 # Start the Console app
 node app.js
+```
+
+## package.json
+
+```json
+{
+"name": "lm-studio-node",
+"version": "1.0.0",
+"description": "LM-Server with node.js",
+"main": "app.js",
+"type": "module",
+"scripts": {
+"test": "echo "Error: no test specified" && exit 1"
+},
+"author": "",
+"license": "ISC",
+"dependencies": {
+"axios": "^1.7.2",
+"readline": "^1.3.0"
+}
+}
 ```
