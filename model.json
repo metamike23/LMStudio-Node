@@ -1,0 +1,15 @@
+{
+  "name": "Meta-Llama-3-8B-Instruct-imatrix",
+  "arch": "llama",
+  "quant": "Q4_K_M",
+  "context_length": 8192,
+  "embedding_length": 4096,
+  "num_layers": 32,
+  "rope": {
+    "freq_base": 500000,
+    "dimension_count": 128
+  },
+  "head_count": 32,
+  "head_count_kv": 8,
+  "parameters": "7B"
+}
