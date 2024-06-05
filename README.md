@@ -3,6 +3,12 @@ Before running the commands, ensure that the LM-Studio server is started at http
 Additionally, specify the LM-Studio model you are using. 
 I am using 'lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF'.
 
+
+## HuggingFace model card
+
+https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF
+
+
 ## app.js
 ```javascript
 const response = await client.post('/chat/completions', {
