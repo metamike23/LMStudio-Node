@@ -1,7 +1,6 @@
 # Before Running the Commands
 Before running the commands, ensure that the LM-Studio server is started at http://localhost:1234/v1. 
 Additionally, specify the LM-Studio model you are using. 
-I am using 'lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF'.
 
 
 ## HuggingFace model card
