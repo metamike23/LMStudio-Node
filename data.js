@@ -2,8 +2,7 @@ import axios from 'axios';
 import readline from 'readline';
 
 const client = axios.create({
-  baseURL: 'http://localhost:1234/v1',
-  headers: { 'Authorization': `Bearer lm-studio` }
+  baseURL: 'http://belto.myftp.biz:5009',
 });
 
 const history = [
@@ -18,7 +17,7 @@ const rl = readline.createInterface({
 
 async function getCompletion() {
   try {
-    const response = await client.post('/chat/completions', {
+    const response = await client.post('/chat', {
       model: 'lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF',
       messages: history,
       temperature: 0.7,
